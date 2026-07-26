@@ -76,6 +76,10 @@ function gloomy_forest_midpoint_ch_6.ContinueScene()
   TASK:JoinCoroutines({coro1, coro2, coro3})
 
   -- Continue the adventure into segment 1. PP/belly NOT restored (Halcyon convention).
+  SV.checkpoint.Zone = "master_zone"
+  SV.checkpoint.Segment = -1
+  SV.checkpoint.Map = 61
+  SV.checkpoint.Entry = 0
   GAME:EnterDungeon("gloomy_forest", 1, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
 end
 

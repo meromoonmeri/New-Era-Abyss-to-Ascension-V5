@@ -62,6 +62,10 @@ function vast_steppe_midpoint.North_Exit_Touch(obj, activator)
     partner.IsInteracting = false
     GROUND:CharEndAnim(partner)
     GROUND:CharEndAnim(hero)
+    SV.checkpoint.Zone = "master_zone"
+    SV.checkpoint.Segment = -1
+    SV.checkpoint.Map = 62
+    SV.checkpoint.Entry = 0
     GAME:EnterDungeon("vast_steppe", 2, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
   end
   partner.IsInteracting = false

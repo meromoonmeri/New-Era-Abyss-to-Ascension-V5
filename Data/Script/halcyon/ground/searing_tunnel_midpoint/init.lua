@@ -115,6 +115,10 @@ function searing_tunnel_midpoint.North_Exit_Touch(obj, activator)
 		partner.IsInteracting = false
 		GROUND:CharEndAnim(partner)
 		GROUND:CharEndAnim(hero)
+		SV.checkpoint.Zone = "master_zone"
+		SV.checkpoint.Segment = -1
+		SV.checkpoint.Map = 48
+		SV.checkpoint.Entry = 0
 		GAME:EnterDungeon("searing_tunnel", 1, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
 	end
   end

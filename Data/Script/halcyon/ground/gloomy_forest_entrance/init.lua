@@ -54,6 +54,10 @@ function gloomy_forest_entrance.Dungeon_Entrance_Touch(obj, activator)
 		SV.Chapter6.EnteredGloomyForest = true
 		SOUND:FadeOutBGM(40)
 		GAME:FadeOut(false, 40)
+		SV.checkpoint.Zone = "master_zone"
+		SV.checkpoint.Segment = -1
+		SV.checkpoint.Map = 51
+		SV.checkpoint.Entry = 0
 		GAME:EnterDungeon("gloomy_forest", 0, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, true)
 	end
 end

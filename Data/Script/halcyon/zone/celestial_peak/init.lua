@@ -9,6 +9,10 @@ require 'origin.common'
 require 'halcyon.GeneralFunctions'
 
 local celestial_peak = {}
+local RELAY_MAP = 72
+local FULGUR_MAP = 73
+local BOSS_MAP = 74
+local FALLBACK_ENTRANCE_MAP = 64 -- entree valide la plus proche dans master_zone tant qu'aucune entree dediee n'existe.
 
 function celestial_peak.Init(zone)
   DEBUG.EnableDbgCoro()
@@ -27,6 +31,12 @@ function celestial_peak.Rescued(zone, name, mail)
     COMMON.Rescued(zone, name, mail)
 end
 
+local function ReturnToMasterGround(result, map_id)
+  GAME:EndDungeonRun(result, "master_zone", -1, map_id, 0, true, true)
+  GAME:WaitFrames(20)
+  GAME:EnterZone("master_zone", -1, map_id, 0)
+end
+
 function celestial_peak.ExitSegment(zone, result, rescue, segmentID, mapID)
   GeneralFunctions.RestoreIdleAnim()
   DEBUG.EnableDbgCoro()
@@ -35,12 +45,9 @@ function celestial_peak.ExitSegment(zone, result, rescue, segmentID, mapID)
   local exited = COMMON.ExitDungeonMissionCheck(result, rescue, zone.ID, segmentID)
   SV.adventure.Thief = false
 
-  if exited == true then
-      return
-  end
+  if exited == true then return end
 
   if segmentID == 0 then
-      -- Contreforts Venteux : 8 etages
       if result == RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 10 then
           SV.Chapter10.ReachedCloudRelay = true
           GAME:EnterGroundMap('celestial_peak_relay', 'Main_Entrance_Marker')
@@ -48,22 +55,20 @@ function celestial_peak.ExitSegment(zone, result, rescue, segmentID, mapID)
           GAME:WaitFrames(20)
           SV.Chapter10.LostFoothills = true
           if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
-              GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GAME:EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
               GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1),
                   "Le vent...[pause=0] il est trop fort...[pause=20] on ne peut plus avancer...", "Pain")
               GAME:WaitFrames(20)
-              GAME:EnterZone("master_zone", -1, 46, 0)
+              GAME:EnterZone("master_zone", -1, FALLBACK_ENTRANCE_MAP, 0)
           else
-              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
           end
       end
   elseif segmentID == 1 then
-      -- Relais — corniche nuageuse
       if result ~= RogueEssence.Data.GameProgress.ResultType.Cleared then
           GAME:EnterGroundMap('celestial_peak_relay', 'Main_Entrance_Marker')
       end
   elseif segmentID == 2 then
-      -- Mer de Nuages : 6 etages
       if result == RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 10 then
           SV.Chapter10.ReachedFulgurEncounter = true
           GAME:EnterGroundMap('celestial_peak_fulgur', 'Main_Entrance_Marker')
@@ -71,30 +76,20 @@ function celestial_peak.ExitSegment(zone, result, rescue, segmentID, mapID)
           GAME:WaitFrames(20)
           SV.Chapter10.LostCloudSea = true
           if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
-              GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
-              GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1),
-                  "Les nuages...[pause=0] on est tombes...[pause=25] a travers le ciel...", "Shock")
-              GAME:WaitFrames(20)
-              GAME:EnterZone("master_zone", -1, 46, 0)
+              ReturnToMasterGround(result, RELAY_MAP)
           else
-              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
           end
       end
   elseif segmentID == 3 then
-      -- Escouade Fulgur
       if result == RogueEssence.Data.GameProgress.ResultType.Cleared then
           SV.Chapter10.OutranEscouadeFulgur = true
           GAME:EnterGroundMap('celestial_peak_relay', 'Main_Entrance_Marker')
       else
           SV.Chapter10.FulgurReachedSummitFirst = true
-          GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
-          GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1),
-              "L'Escouade Fulgur...[pause=0] ils nous ont devances...[pause=20] trop rapides...", "Pain")
-          GAME:WaitFrames(20)
-          GAME:EnterZone("master_zone", -1, 46, 0)
+          ReturnToMasterGround(result, RELAY_MAP)
       end
   elseif segmentID == 4 then
-      -- Sommet Sacre : 4 etages
       if result == RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 10 then
           SV.Chapter10.ReachedLugiaAltar = true
           GAME:EnterGroundMap('celestial_peak_boss', 'Main_Entrance_Marker')
@@ -102,30 +97,20 @@ function celestial_peak.ExitSegment(zone, result, rescue, segmentID, mapID)
           GAME:WaitFrames(20)
           SV.Chapter10.LostSummit = true
           if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
-              GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
-              GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1),
-                  "Le sommet...[pause=0] si proche...[pause=30] et pourtant...", "Sad")
-              GAME:WaitFrames(20)
-              GAME:EnterZone("master_zone", -1, 46, 0)
+              ReturnToMasterGround(result, RELAY_MAP)
           else
-              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
           end
       end
   elseif segmentID == 5 then
-      -- Boss Lugia
       if result == RogueEssence.Data.GameProgress.ResultType.Cleared then
           SV.Chapter10.DefeatedLugia = true
           SV.Chapter10.CelestialPeakComplete = true
-          GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+          GeneralFunctions.EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
       else
           SV.Chapter10.DiedToLugia = true
-          GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
-          GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1),
-              "Lugia...[pause=0] le Gardien des Cieux...[pause=20] nous a juges...", "Pain")
-          GAME:WaitFrames(20)
-          GAME:EnterZone("master_zone", -1, 46, 0)
+          ReturnToMasterGround(result, RELAY_MAP)
       end
-  end      GAME:EnterGroundMap('celestial_peak_boss', 'Main_Entrance_Marker')
   end
 end
 

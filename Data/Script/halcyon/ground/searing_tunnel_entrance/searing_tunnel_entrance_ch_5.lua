@@ -2277,6 +2277,10 @@ function searing_tunnel_entrance_ch_5.Dungeon_Entrance_Touch(obj, activator)
 
 		GeneralFunctions.EndConversation(partner)
 		SV.Chapter5.EnteredTunnel = true
+		SV.checkpoint.Zone = "master_zone"
+		SV.checkpoint.Segment = -1
+		SV.checkpoint.Map = 47
+		SV.checkpoint.Entry = 0
 		GAME:EnterDungeon("searing_tunnel", 0, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
 
 	else

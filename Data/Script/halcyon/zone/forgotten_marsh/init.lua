@@ -8,6 +8,9 @@ require 'origin.common'
 require 'halcyon.GeneralFunctions'
 
 local forgotten_marsh = {}
+local RELAY_MAP = 70
+local BOSS_MAP = 71
+local FALLBACK_ENTRANCE_MAP = 64 -- entree valide la plus proche dans master_zone tant qu'aucune entree dediee n'existe.
 
 function forgotten_marsh.Init(zone)
   DEBUG.EnableDbgCoro()
@@ -26,6 +29,12 @@ function forgotten_marsh.Rescued(zone, name, mail)
     COMMON.Rescued(zone, name, mail)
 end
 
+local function ReturnToMasterGround(result, map_id)
+  GAME:EndDungeonRun(result, "master_zone", -1, map_id, 0, true, true)
+  GAME:WaitFrames(20)
+  GAME:EnterZone("master_zone", -1, map_id, 0)
+end
+
 function forgotten_marsh.ExitSegment(zone, result, rescue, segmentID, mapID)
   GeneralFunctions.RestoreIdleAnim()
   DEBUG.EnableDbgCoro()
@@ -34,12 +43,9 @@ function forgotten_marsh.ExitSegment(zone, result, rescue, segmentID, mapID)
   local exited = COMMON.ExitDungeonMissionCheck(result, rescue, zone.ID, segmentID)
   SV.adventure.Thief = false
 
-  if exited == true then
-      return
-  end
+  if exited == true then return end
 
   if segmentID == 0 then
-      -- Berges Putrides : 10 etages
       if result == RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 9 then
           SV.Chapter9.ReachedMarshRelay = true
           GAME:EnterGroundMap('forgotten_marsh_relay', 'Main_Entrance_Marker')
@@ -47,22 +53,20 @@ function forgotten_marsh.ExitSegment(zone, result, rescue, segmentID, mapID)
           GAME:WaitFrames(20)
           SV.Chapter9.LostMarshBanks = true
           if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
-              GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GAME:EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
               GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1),
                   "La vase...[pause=0] elle nous aspire...[pause=20] vers le fond...", "Pain")
               GAME:WaitFrames(20)
-              GAME:EnterZone("master_zone", -1, 46, 0)
+              GAME:EnterZone("master_zone", -1, FALLBACK_ENTRANCE_MAP, 0)
           else
-              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
           end
       end
   elseif segmentID == 1 then
-      -- Relais
       if result ~= RogueEssence.Data.GameProgress.ResultType.Cleared then
           GAME:EnterGroundMap('forgotten_marsh_relay', 'Main_Entrance_Marker')
       end
   elseif segmentID == 2 then
-      -- Abysses Vaseux : 8 etages — le Cercle du Suaire rode
       if result == RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 9 then
           SV.Chapter9.ReachedMarshDepths = true
           SV.Chapter9.SawCercleDuSuaire = true
@@ -71,29 +75,20 @@ function forgotten_marsh.ExitSegment(zone, result, rescue, segmentID, mapID)
           GAME:WaitFrames(20)
           SV.Chapter9.LostMarshDepths = true
           if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
-              GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
-              GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1),
-                  "Une ombre...[pause=0] dans la brume...[pause=30] elle nous regardait...", "Shock")
-              GAME:WaitFrames(20)
-              GAME:EnterZone("master_zone", -1, 46, 0)
+              ReturnToMasterGround(result, RELAY_MAP)
           else
-              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
           end
       end
   elseif segmentID == 3 then
-      -- Boss Mega-Blastoise
       if result == RogueEssence.Data.GameProgress.ResultType.Cleared then
           SV.Chapter9.DefeatedMegaBlastoise = true
           SV.Chapter9.PurifiedMarshCore = true
           SV.Chapter9.ForgottenMarshComplete = true
-          GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+          GeneralFunctions.EndDungeonRun(result, "master_zone", -1, FALLBACK_ENTRANCE_MAP, 0, true, true)
       else
           SV.Chapter9.DiedToMegaBlastoise = true
-          GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
-          GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1),
-              "Le marecage...[pause=0] nous engloutit...[pause=20] tout disparait...", "Pain")
-          GAME:WaitFrames(20)
-          GAME:EnterZone("master_zone", -1, 46, 0)
+          ReturnToMasterGround(result, RELAY_MAP)
       end
   end
 end

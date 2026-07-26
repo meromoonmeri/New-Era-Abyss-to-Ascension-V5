@@ -46,12 +46,12 @@ function cloven_ruins.ExitSegment(zone, result, rescue, segmentID, mapID)
           GAME:WaitFrames(20)
           SV.Chapter7.LostRuins = true
           if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
-              GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GAME:EndDungeonRun(result, "master_zone", -1, 64, 0, true, true)
               GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1), "Les ruines...[pause=0] c'est trop pour nous...", "Pain")
               GAME:WaitFrames(20)
-              GAME:EnterZone("master_zone", -1, 46, 0)
+              GAME:EnterZone("master_zone", -1, 64, 0)
           else
-              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 64, 0, true, true)
           end
       end
   elseif segmentID == 1 then
@@ -67,12 +67,12 @@ function cloven_ruins.ExitSegment(zone, result, rescue, segmentID, mapID)
           GAME:WaitFrames(20)
           SV.Chapter7.LostDepths = true
           if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
-              GAME:EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GAME:EndDungeonRun(result, "master_zone", -1, 66, 0, true, true)
               GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(1), "Les profondeurs...[pause=0] on n'aurait pas du...", "Pain")
               GAME:WaitFrames(20)
-              GAME:EnterZone("master_zone", -1, 46, 0)
+              GAME:EnterZone("master_zone", -1, 66, 0)
           else
-              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+              GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 64, 0, true, true)
           end
       end
   elseif segmentID == 3 then

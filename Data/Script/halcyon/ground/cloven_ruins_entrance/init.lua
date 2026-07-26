@@ -17,6 +17,10 @@ function cloven_ruins_entrance.Dungeon_Entrance_Touch(obj, activator)
     UI:ChoiceMenuYesNo("Entrer dans les Ruines Tordues ?", true); UI:WaitForChoice()
     if UI:ChoiceResult() then GAME:FadeOut(false, 60); partner.IsInteracting = false
         GROUND:CharEndAnim(partner); GROUND:CharEndAnim(CH('PLAYER'))
+        SV.checkpoint.Zone = "master_zone"
+        SV.checkpoint.Segment = -1
+        SV.checkpoint.Map = 64
+        SV.checkpoint.Entry = 0
         GAME:EnterDungeon("cloven_ruins", 0, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
     end
     partner.IsInteracting = false; GROUND:CharEndAnim(partner); GROUND:CharEndAnim(CH('PLAYER'))

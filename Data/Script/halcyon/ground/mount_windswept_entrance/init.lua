@@ -130,6 +130,10 @@ function mount_windswept_entrance.Dungeon_Entrance_Touch(obj, activator)
     GROUND:CharEndAnim(hero)
     --default partner spawn, since it should be default wherever we end up after the dungeon.
     SV.partner.Spawn = "Default"
+    SV.checkpoint.Zone = "master_zone"
+    SV.checkpoint.Segment = -1
+    SV.checkpoint.Map = 50
+    SV.checkpoint.Entry = 0
     GAME:EnterDungeon("mount_windswept", 0, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
   end
   partner.IsInteracting = false

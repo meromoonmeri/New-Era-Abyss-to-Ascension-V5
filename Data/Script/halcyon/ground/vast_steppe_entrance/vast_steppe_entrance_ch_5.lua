@@ -1236,6 +1236,10 @@ function vast_steppe_entrance_ch_5.Dungeon_Entrance_Touch(obj, activator)
 		SV.Chapter5.EnteredSteppe = true
 		--Reset this flag if you go in case you go in without taking anything.
 		SV.Chapter5.NeedGiveSupplies = false
+		SV.checkpoint.Zone = "master_zone"
+		SV.checkpoint.Segment = -1
+		SV.checkpoint.Map = 46
+		SV.checkpoint.Entry = 0
 		GAME:EnterDungeon("vast_steppe", 0, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
 
 

@@ -46,7 +46,7 @@ SV.General =
 
 SV.checkpoint = 
 {
-  Zone    = "master_zone", Structure  = -1,
+  Zone    = "master_zone", Segment  = -1,
   Map  = 1, Entry  = 0,
 }
 

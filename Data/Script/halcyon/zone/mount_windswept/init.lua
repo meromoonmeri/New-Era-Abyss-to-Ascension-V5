@@ -67,6 +67,18 @@ function mount_windswept.ExitSegment(zone, result, rescue, segmentID, mapID)
 	elseif segmentID == 2 and result == RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 5 then
 		-- Segment 2 cleared: go to guardian ground map
 		GAME:EnterGroundMap('mount_windswept_guardian', 'Main_Entrance_Marker')
+	elseif segmentID == 2 and result ~= RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 5 then
+		-- Mort apres le relais : retour au checkpoint Mount Windswept Midpoint (master_zone mapID 63).
+		-- Une fuite volontaire reste un abandon de donjon et retourne a l'entree du mont.
+		GAME:WaitFrames(20)
+		if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
+			SV.Chapter5.MountMidpointState = 'DeathArrival'
+			GAME:EndDungeonRun(result, "master_zone", -1, 63, 0, true, true)
+			GAME:WaitFrames(20)
+			GAME:EnterZone("master_zone", -1, 63, 0)
+		else
+			GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 50, 0, true, true)
+		end
 	elseif segmentID == 3 and SV.ChapterProgression.Chapter == 5 then
 		-- Guardian arena: win or loss both go back to guardian ground map
 		if result == RogueEssence.Data.GameProgress.ResultType.Cleared then

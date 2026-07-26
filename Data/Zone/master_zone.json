@@ -83098,7 +83098,14 @@
       "cloven_ruins_entrance",
       "genesis_vision",
       "cloven_ruins_midpoint",
-      "cloven_ruins_boss"
+      "cloven_ruins_boss",
+      "crystal_sanctuary_relay",
+      "crystal_sanctuary_boss",
+      "forgotten_marsh_relay",
+      "forgotten_marsh_boss",
+      "celestial_peak_relay",
+      "celestial_peak_fulgur",
+      "celestial_peak_boss"
     ]
   }
 }

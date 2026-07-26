@@ -69,6 +69,22 @@ function vast_steppe.ExitSegment(zone, result, rescue, segmentID, mapID)
 	elseif segmentID == 2 and result == RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 5 then
 		-- Segment 2 cleared: go to guardian ground map
 		GAME:EnterGroundMap('vast_steppe_guardian', 'Main_Entrance_Marker')
+	elseif segmentID == 2 and result ~= RogueEssence.Data.GameProgress.ResultType.Cleared and SV.ChapterProgression.Chapter == 5 then
+		-- Mort apres le relais : retour au checkpoint Vast Steppe Midpoint (master_zone mapID 62).
+		-- Une fuite volontaire reste un abandon de donjon et retourne a l'entree.
+		GAME:WaitFrames(20)
+		SV.Chapter5.LostSteppe = true
+		if result ~= RogueEssence.Data.GameProgress.ResultType.Escaped then
+			SV.Chapter5.DiedSteppe = true
+			SV.Chapter5.PlayedSteppeMidpointIntro = true
+			GAME:EndDungeonRun(result, "master_zone", -1, 62, 0, true, true)
+			GeneralFunctions.DeathFadeOutDialogue(GAME:GetPlayerPartyMember(3), "Ouf ![pause=0] Reprenons depuis le relais de la steppe...", "Pain")
+			GAME:WaitFrames(20)
+			GAME:EnterZone("master_zone", -1, 62, 0)
+		else
+			SV.Chapter5.EscapedSteppe = true
+			GeneralFunctions.EndDungeonRun(result, "master_zone", -1, 46, 0, true, true)
+		end
 	elseif segmentID == 3 and SV.ChapterProgression.Chapter == 5 then
 		-- Guardian arena: win or loss both go back to guardian ground map
 		if result == RogueEssence.Data.GameProgress.ResultType.Cleared then

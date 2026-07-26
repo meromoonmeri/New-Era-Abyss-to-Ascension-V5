@@ -185,6 +185,10 @@ function searing_tunnel_midpoint_ch_5.ContinueScene()
 
 	TASK:JoinCoroutines({coro1, coro2, coro3, coro4, coro5})	
 	
+	SV.checkpoint.Zone = "master_zone"
+	SV.checkpoint.Segment = -1
+	SV.checkpoint.Map = 48
+	SV.checkpoint.Entry = 0
 	GAME:EnterDungeon("searing_tunnel", 1, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
 end
 
