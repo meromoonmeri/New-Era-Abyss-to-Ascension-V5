@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <data name="MWM_001" xml:space="preserve">
+    <value>Ce vent est impitoyable...[pause=15] On doit être sacrément haut maintenant.</value>
+  </data>
+  <data name="MWM_002" xml:space="preserve">
+    <value>Hé...[pause=10] tu as senti ça ? Le sol a tremblé.</value>
+  </data>
+  <data name="MWM_003" xml:space="preserve">
+    <value>Un éboulement !</value>
+  </data>
+  <data name="MWM_004" xml:space="preserve">
+    <value>Un Gligar est sorti de la paroi !</value>
+  </data>
+  <data name="MWM_005" xml:space="preserve">
+    <value>Un Skarmory en piqué ![pause=10] Ils sont deux !</value>
+  </data>
+  <data name="MWM_006" xml:space="preserve">
+    <value>Les Sentinelles du Pic...</value>
+  </data>
+  <data name="MWM_007" xml:space="preserve">
+    <value>Encore toi ![pause=10] Qui es-tu ?!</value>
+  </data>
+  <data name="MWM_008" xml:space="preserve">
+    <value>L'un maîtrise la terre, l'autre les cieux.[pause=20] Ensemble, ils sont presque invincibles.</value>
+  </data>
+  <data name="MWM_009" xml:space="preserve">
+    <value>Mais chaque sentinelle a sa faiblesse...[pause=20] Trouve-la.</value>
+  </data>
+  <data name="MWM_010" xml:space="preserve">
+    <value>On va leur montrer de quel bois on se chauffe ![pause=10] À l'attaque !</value>
+  </data>
+  <data name="MWM_011" xml:space="preserve">
+    <value>On n'abandonne pas.[pause=15] Cette fois, on passe !</value>
+  </data>
+  <data name="MWM_012" xml:space="preserve">
+    <value>On a eu le dessus ![pause=10] Ces deux-là ne nous arrêteront plus.</value>
+  </data>
+  <data name="MWM_013" xml:space="preserve">
+    <value>Cette voix...[pause=15] Elle nous a donné un indice, tu crois ?</value>
+  </data>
+  <data name="MWM_014" xml:space="preserve">
+    <value>Peut-être.[pause=20] Ou peut-être qu'elle veut juste nous voir réussir.</value>
+  </data>
+  <data name="MWM_015" xml:space="preserve">
+    <value>Les sentinelles t'ont repoussé...</value>
+  </data>
+  <data name="MWM_016" xml:space="preserve">
+    <value>Apprends de cette défaite.[pause=30] Le sommet n'attend que les plus forts.</value>
+  </data>
+<data name="MWM_017" xml:space="preserve"><value>It's...[pause=10] it's too much for us![pause=15] We have to go back down!</value></data><data name="MWM_018" xml:space="preserve"><value>Gligar snaps its claws, triumphant.[pause=10] Skarmory hovers above you,[pause=5] menacing.</value></data><data name="MWM_019" xml:space="preserve"><value>The peaks are not for the weak.[pause=20] Go back down. Come back stronger.</value></data><data name="MWM_020" xml:space="preserve"><value>They rise back into the updrafts,[pause=15] their silhouettes melting into the clouds.</value></data><data name="MWM_021" xml:space="preserve"><value>Skarmory crashes to the ground with a metallic clang.[pause=10] Gligar retreats,[pause=5] wings folded.</value></data><data name="MWM_022" xml:space="preserve"><value>Gligar gives you one last look before taking off.[pause=20] A look that says everything.</value></data><data name="MWM_023" xml:space="preserve"><value>You...[pause=15] you've earned the right to climb higher.[pause=20] Don't disappoint us.</value></data><data name="MWM_024" xml:space="preserve"><value>They disappear into the wind,[pause=10] leaving the path to the summit clear.</value></data><data name="MWM_025" xml:space="preserve"><value>We got them![pause=10] Not even the wind could stop us!</value></data><data name="MWM_026" xml:space="preserve"><value>The sentinels recognize strength.[pause=20] You earn their respect.</value></data></root>

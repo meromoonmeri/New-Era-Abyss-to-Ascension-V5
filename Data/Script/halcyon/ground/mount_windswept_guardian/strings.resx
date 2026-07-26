@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <data name="MWG_001" xml:space="preserve">
+    <value>The summit...[pause=15] We're almost there.</value>
+  </data>
+  <data name="MWG_002" xml:space="preserve">
+    <value>Look at the sky...[pause=15] Those clouds aren't normal.</value>
+  </data>
+  <data name="MWG_003" xml:space="preserve">
+    <value>Is that...[pause=10] a storm?!</value>
+  </data>
+  <data name="MWG_004" xml:space="preserve">
+    <value>An...[pause=10] AN AERODACTYL!</value>
+  </data>
+  <data name="MWG_005" xml:space="preserve">
+    <value>The Ancient Sky Predator...</value>
+  </data>
+  <data name="MWG_006" xml:space="preserve">
+    <value>You...[pause=10] You knew it was here!</value>
+  </data>
+  <data name="MWG_007" xml:space="preserve">
+    <value>The mountain's ultimate guardian.[pause=20] It ruled these skies long before anyone set foot on this land.</value>
+  </data>
+  <data name="MWG_008" xml:space="preserve">
+    <value>If you triumph here, the path to the ancestral ruins will open to you.</value>
+  </data>
+  <data name="MWG_009" xml:space="preserve">
+    <value>Fail...[pause=30] and your journey ends here.</value>
+  </data>
+  <data name="MWG_010" xml:space="preserve">
+    <value>Then let's show it our journey is just beginning![pause=10] [player], let's do this!</value>
+  </data>
+  <data name="MWG_011" xml:space="preserve">
+    <value>This time, we take it down.[pause=15] I promise, [player].</value>
+  </data>
+  <data name="MWG_012" xml:space="preserve">
+    <value>We...[pause=10] We beat it!</value>
+  </data>
+  <data name="MWG_013" xml:space="preserve">
+    <value>Look![pause=10] The storm is clearing...</value>
+  </data>
+  <data name="MWG_014" xml:space="preserve">
+    <value>That voice...[pause=15] It said something about ancestral ruins.</value>
+  </data>
+  <data name="MWG_015" xml:space="preserve">
+    <value>That's where we're going.[pause=20] To the Cloven Ruins.</value>
+  </data>
+  <data name="MWG_016" xml:space="preserve">
+    <value>Then let's go![pause=15] The end of the expedition awaits us!</value>
+  </data>
+  <data name="MWG_017" xml:space="preserve">
+    <value>The ancient predator shows no mercy...</value>
+  </data>
+  <data name="MWG_018" xml:space="preserve">
+    <value>But today's prey is tomorrow's hunter.</value>
+  </data>
+  <data name="MWG_019" xml:space="preserve">
+    <value>Rest now.[pause=30] The summit will wait for you.</value>
+  </data>
+<data name="MWG_020" xml:space="preserve"><value>Je...[pause=5] je ne tiens plus debout...[pause=15] L'Aerodactyl est trop puissant !</value></data><data name="MWG_021" xml:space="preserve"><value>L'Aerodactyl pousse un cri perçant qui déchire le ciel.[pause=15] Il te domine de toute sa stature.</value></data><data name="MWG_022" xml:space="preserve"><value>Tu n'es pas le premier à tomber,[pause=20] petit grimpeur.[pause=25] Et tu ne seras pas le dernier.</value></data><data name="MWG_023" xml:space="preserve"><value>Il remonte dans l'orage en deux battements d'ailes.[pause=20] La montagne tremble encore.</value></data><data name="MWG_024" xml:space="preserve"><value>Le prédateur ancestral s'effondre dans un nuage de poussière.[pause=15] L'orage se dissipe.</value></data><data name="MWG_025" xml:space="preserve"><value>L'Aerodactyl te regarde, haletant.[pause=20] Puis il baisse la tête.</value></data><data name="MWG_026" xml:space="preserve"><value>Tu as vaincu le roi de ces cieux.[pause=25] Je... je ne pensais pas voir ça un jour.[pause=30] Va. Le sommet est à toi.</value></data><data name="MWG_027" xml:space="preserve"><value>Il déploie ses ailes une dernière fois et disparaît dans les nuages.[pause=15] Le silence revient.</value></data><data name="MWG_028" xml:space="preserve"><value>On l'a...[pause=10] ON L'A VAINCU ![pause=15] Le sommet est à nous !</value></data><data name="MWG_029" xml:space="preserve"><value>Le plus vieux prédateur plie devant toi.[pause=25] Tu changes les règles de ce monde.</value></data></root>

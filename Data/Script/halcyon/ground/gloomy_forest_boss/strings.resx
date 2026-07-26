@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="GF6B_001" xml:space="preserve"><value>The ruins end here. Something is blocking the path.</value></data>
+  <data name="GF6B_002" xml:space="preserve"><value>It feels like the forest is holding its breath.</value></data>
+  <data name="GF6B_003" xml:space="preserve"><value>Then we are close. Chenipent must have come this way.</value></data>
+  <data name="GF6B_004" xml:space="preserve"><value>Wait... That was not a shadow.</value></data>
+  <data name="GF6B_005" xml:space="preserve"><value>Something is standing between us and the heart of the forest.</value></data>
+  <data name="GF6B_006" xml:space="preserve"><value>You have no place here.</value></data>
+  <data name="GF6B_007" xml:space="preserve"><value>We are not leaving someone behind!</value></data>
+  <data name="GF6B_008" xml:space="preserve"><value>We came this far together. We will finish this together.</value></data>
+  <data name="GF6B_009" xml:space="preserve"><value>Turn back.</value></data>
+  <data name="GF6B_010" xml:space="preserve"><value>The forest will not forgive trespassers.</value></data>
+  <data name="GF6B_011" xml:space="preserve">
+    <value>The forest's gone quiet...[pause=20] Even the wind has stopped.</value>
+  </data>
+  <data name="GF6B_012" xml:space="preserve">
+    <value>So the little ones came all this way...</value>
+  </data>
+  <data name="GF6B_013" xml:space="preserve">
+    <value>The Guardian of the roots will not let you pass.</value>
+  </data>
+</root>

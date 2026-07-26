@@ -1,0 +1,976 @@
+﻿{
+  "Version": "0.8.9.0",
+  "Object": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+    "apricorn_grove": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 2,
+      "CountedFloors": 8,
+      "Rogue": 0,
+      "Grounds": [
+        "apricorn_grove_entrance",
+        "apricorn_glade"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Apricorn Grove",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "4th dungeon of the game.",
+      "SortOrder": 0
+    },
+    "backup_master_zone": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 0,
+      "Rogue": 0,
+      "Grounds": [
+        "relic_forest",
+        "metano_town",
+        "guild_heros_room",
+        "guild_bedroom_hallway",
+        "guild_bottom_left_bedroom",
+        "guild_bottom_right_bedroom",
+        "guild_dining_room",
+        "guild_first_floor",
+        "guild_guildmasters_room",
+        "altere_pond",
+        "base_camp",
+        "base_camp_2",
+        "forest_camp",
+        "cliff_camp",
+        "canyon_camp",
+        "rest_stop",
+        "final_stop",
+        "guildmaster_summit",
+        "guild_path",
+        "guild_hut",
+        "luminous_spring",
+        "post_office",
+        "guild_second_floor",
+        "guild_storage_hallway",
+        "guild_storage_room",
+        "guild_third_floor_lobby",
+        "guild_top_left_bedroom",
+        "guild_top_right_bedroom",
+        "metano_altere_transition",
+        "metano_cafe",
+        "metano_cave",
+        "metano_electric_home",
+        "metano_fire_home",
+        "metano_grass_home",
+        "metano_rock_home",
+        "metano_water_home",
+        "ledian_dojo",
+        "metano_normal_home",
+        "illuminant_riverbed_entrance",
+        "metano_inn",
+        "personality_test",
+        "crooked_cavern_entrance",
+        "crooked_den",
+        "first_core_location",
+        "testmap",
+        "test_grounds"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Guildmaster Island",
+        "LocalTexts": {
+          "fr": "Île du Maître de la Guilde",
+          "de": "Gildenmeister-Insel",
+          "es": "Isla Maestro"
+        }
+      },
+      "Released": true,
+      "Comment": "",
+      "SortOrder": 0
+    },
+    "beginner_lesson": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": 5,
+      "LevelCap": true,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 5,
+      "Rogue": 0,
+      "Grounds": [],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Beginner Lesson",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "First tutorial lesson at Ledian Dojo.",
+      "SortOrder": 0
+    },
+    "bug_maze": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 125,
+      "Level": 13,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 0,
+      "Rogue": 0,
+      "Grounds": [],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Bug Maze",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "In the fourth set of training mazes. Unlocked in Chapter 5.",
+      "SortOrder": 0
+    },
+    "cloven_ruins": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 2,
+      "CountedFloors": 20,
+      "Rogue": 0,
+      "Grounds": [
+        "cloven_ruins_entrance",
+        "cloven_ruins_boss"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Cloven Ruins",
+        "LocalTexts": {
+          "fr": "Ruines Tordues"
+        }
+      },
+      "Released": false,
+      "SortOrder": 0
+    },
+    "crooked_cavern": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 2,
+      "CountedFloors": 20,
+      "Rogue": 0,
+      "Grounds": [
+        "crooked_cavern_entrance",
+        "crooked_den"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          0
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Crooked Cavern",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "3rd Dungeon of the game.",
+      "SortOrder": 0
+    },
+    "electric_maze": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 125,
+      "Level": 13,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 0,
+      "Rogue": 0,
+      "Grounds": [],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Electric Maze",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "In the fourth set of training mazes. Unlocked in Chapter 5.",
+      "SortOrder": 0
+    },
+    "fire_maze": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 125,
+      "Level": 7,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 5,
+      "Rogue": 0,
+      "Grounds": [],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Fire Maze",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "In the second set of training mazes. Unlocked in Chapter 3.",
+      "SortOrder": 0
+    },
+    "flying_maze": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 125,
+      "Level": 10,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 5,
+      "Rogue": 0,
+      "Grounds": [],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Flying Maze",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "In the third set of training mazes. Unlocked in Chapter 4.",
+      "SortOrder": 0
+    },
+    "grass_maze": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 125,
+      "Level": 7,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 5,
+      "Rogue": 0,
+      "Grounds": [],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Grass Maze",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "In the second set of training mazes. Unlocked in Chapter 3.",
+      "SortOrder": 0
+    },
+    "illuminant_riverbed": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 2,
+      "CountedFloors": 8,
+      "Rogue": 0,
+      "Grounds": [
+        "luminous_spring",
+        "illuminant_riverbed_entrance"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Illuminant Riverbed",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "2nd dungeon of the game.",
+      "SortOrder": 0
+    },
+    "master_zone": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 0,
+      "Rogue": 0,
+      "Grounds": [
+        "relic_forest",
+        "metano_town",
+        "guild_heros_room",
+        "guild_bedroom_hallway",
+        "guild_bottom_left_bedroom",
+        "guild_bottom_right_bedroom",
+        "guild_dining_room",
+        "guild_first_floor",
+        "guild_guildmasters_room",
+        "altere_pond",
+        "base_camp",
+        "base_camp_2",
+        "forest_camp",
+        "cliff_camp",
+        "canyon_camp",
+        "rest_stop",
+        "final_stop",
+        "guildmaster_summit",
+        "guild_path",
+        "guild_hut",
+        "luminous_spring",
+        "post_office",
+        "guild_second_floor",
+        "guild_storage_hallway",
+        "guild_storage_room",
+        "guild_third_floor_lobby",
+        "guild_top_left_bedroom",
+        "guild_top_right_bedroom",
+        "metano_altere_transition",
+        "metano_cafe",
+        "metano_cave",
+        "metano_electric_home",
+        "metano_fire_home",
+        "metano_grass_home",
+        "metano_rock_home",
+        "metano_water_home",
+        "ledian_dojo",
+        "metano_normal_home",
+        "illuminant_riverbed_entrance",
+        "metano_inn",
+        "personality_test",
+        "crooked_cavern_entrance",
+        "crooked_den",
+        "first_core_location",
+        "apricorn_grove_entrance",
+        "apricorn_glade",
+        "vast_steppe_entrance",
+        "searing_tunnel_entrance",
+        "searing_tunnel_midpoint",
+        "searing_crucible",
+        "mount_windswept_entrance",
+        "testmap",
+        "test_grounds"
+      ],
+      "Maps": [
+        [
+          0
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Debug",
+        "LocalTexts": {
+          "de": "Debug",
+          "es": "Debug"
+        }
+      },
+      "Released": true,
+      "Comment": "",
+      "SortOrder": 0
+    },
+    "mount_windswept": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 2,
+      "CountedFloors": 13,
+      "Rogue": 0,
+      "Grounds": [
+        "mount_windswept_entrance",
+        "mount_windswept_miniboss",
+        "mount_windswept_guardian",
+        "mount_windswept_midpoint"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Mt. Windswept",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "3rd dungeon of the expedition. 7th dungeon overall.",
+      "SortOrder": 0
+    },
+    "normal_maze": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 125,
+      "Level": 5,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 5,
+      "Rogue": 0,
+      "Grounds": [
+        "relic_forest",
+        "metano_town",
+        "guild_heros_room",
+        "guild_bedroom_hallway",
+        "guild_bottom_left_bedroom",
+        "guild_bottom_right_bedroom",
+        "guild_dining_room",
+        "guild_first_floor",
+        "guild_guildmasters_room",
+        "altere_pond",
+        "base_camp",
+        "base_camp_2",
+        "forest_camp",
+        "cliff_camp",
+        "canyon_camp",
+        "rest_stop",
+        "final_stop",
+        "guildmaster_summit",
+        "guild_path",
+        "guild_hut",
+        "luminous_spring",
+        "post_office",
+        "guild_second_floor",
+        "guild_storage_hallway",
+        "guild_storage_room",
+        "guild_third_floor_lobby",
+        "guild_top_left_bedroom",
+        "guild_top_right_bedroom",
+        "metano_altere_transition",
+        "metano_cafe",
+        "metano_cave",
+        "metano_electric_home",
+        "metano_fire_home",
+        "metano_grass_home",
+        "metano_rock_home",
+        "metano_water_home",
+        "testmap",
+        "test_grounds"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Normal Maze",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "First training maze. Easy maze.",
+      "SortOrder": 0
+    },
+    "relic_forest": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 5,
+      "Rogue": 0,
+      "Grounds": [
+        "metano_town",
+        "relic_forest",
+        "altere_pond"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Relic Forest",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "Chapter 1 - First dungeon of the game",
+      "SortOrder": 0
+    },
+    "gloomy_forest": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 21,
+      "Rogue": 0,
+      "Grounds": [
+        "gloomy_forest_entrance",
+        "gloomy_forest_midpoint",
+        "gloomy_forest_boss"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Gloomy Forest",
+        "LocalTexts": {
+          "fr": "Forêt Lugubre"
+        }
+      },
+      "Released": true,
+      "Comment": "Chapter 6 - rescue mission for Team Dazzling",
+      "SortOrder": 0
+    },
+    "rock_maze": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 125,
+      "Level": 10,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 5,
+      "Rogue": 0,
+      "Grounds": [],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Rock Maze",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "In the third set of training mazes. Unlocked in Chapter 4.",
+      "SortOrder": 0
+    },
+    "searing_tunnel": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 2,
+      "CountedFloors": 15,
+      "Rogue": 0,
+      "Grounds": [
+        "searing_tunnel_entrance",
+        "searing_tunnel_midpoint",
+        "searing_crucible",
+        "searing_tunnel_miniboss"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Searing Tunnel",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "2nd dungeon of the expedition. 6th dungeon overall.",
+      "SortOrder": 0
+    },
+    "vast_steppe": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 100,
+      "Level": -1,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 2,
+      "CountedFloors": 14,
+      "Rogue": 0,
+      "Grounds": [
+        "vast_steppe_entrance",
+        "vast_steppe_miniboss",
+        "vast_steppe_guardian",
+        "vast_steppe_midpoint"
+      ],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Vast Steppe",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "1st dungeon of the expedition. 5th dungeon overall.\r\n\r\nLarge, open floors without any real rooms. Has pokemon that tend to form herds or packs, so that when encounters are made, a good chance it’s a lot of pokemon moving together that’ll work together.\r\n-Pokemon to add in the future if they get sprites: Blitzle, replace stantler probably\r\n-purp kec shop stocks Low Tier TMs",
+      "SortOrder": 0
+    },
+    "water_maze": {
+      "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+      "ExpPercent": 125,
+      "Level": 7,
+      "LevelCap": false,
+      "KeepSkills": false,
+      "TeamRestrict": false,
+      "TeamSize": -1,
+      "MoneyRestrict": false,
+      "BagRestrict": -1,
+      "KeepTreasure": false,
+      "BagSize": -1,
+      "Rescues": 0,
+      "CountedFloors": 5,
+      "Rogue": 0,
+      "Grounds": [],
+      "Maps": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "Name": {
+        "DefaultText": "Water Maze",
+        "LocalTexts": {}
+      },
+      "Released": true,
+      "Comment": "In the second set of training mazes. Unlocked in Chapter 3.",
+      "SortOrder": 0
+    }
+  }
+}

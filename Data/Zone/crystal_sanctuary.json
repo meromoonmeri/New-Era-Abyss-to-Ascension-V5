@@ -1,0 +1,122 @@
+﻿{
+  "Version": "0.8.9.0",
+  "Object": {
+    "$type": "RogueEssence.Data.ZoneData, RogueEssence",
+    "Name": {
+      "DefaultText": "Crystal Sanctuary",
+      "LocalTexts": {
+        "fr": "Sanctuaire de Cristal"
+      }
+    },
+    "Released": false,
+    "Comment": "Chapter 8 dungeon. Ancient crystal sanctuary where Anima Core knowledge is kept. Boss: Diancie L42.",
+    "NoEXP": false,
+    "ExpPercent": 100,
+    "Level": -1,
+    "LevelCap": false,
+    "KeepSkills": false,
+    "TeamRestrict": false,
+    "TeamSize": -1,
+    "MoneyRestrict": false,
+    "BagRestrict": -1,
+    "KeepTreasure": false,
+    "BagSize": -1,
+    "Persistent": false,
+    "Rescues": 2,
+    "Rogue": 0,
+    "Segments": [
+      {
+        "$type": "RogueEssence.LevelGen.RangeDictSegment, RogueEssence",
+        "Floors": {
+          "nodes": [
+            {
+              "Item": {},
+              "Range": {
+                "Min": 0,
+                "Max": 6
+              }
+            },
+            {
+              "Item": {},
+              "Range": {
+                "Min": 6,
+                "Max": 12
+              }
+            }
+          ]
+        },
+        "IsRelevant": true,
+        "Comment": "Galerie Cristalline : 12 etages, cristaux bleus, veines lumineuses"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+        "Floors": [
+          {
+            "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+            "GenSteps": [
+              {
+                "Key": {
+                  "str": [
+                    -1
+                  ]
+                },
+                "Value": {
+                  "$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+                  "MapID": "crystal_sanctuary_relay"
+                }
+              }
+            ],
+            "Comment": ""
+          }
+        ],
+        "IsRelevant": true,
+        "Comment": "Relais — autel cristallin (checkpoint Kangourex)"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.RangeDictSegment, RogueEssence",
+        "Floors": {
+          "nodes": [
+            {
+              "Item": {},
+              "Range": {
+                "Min": 0,
+                "Max": 6
+              }
+            }
+          ]
+        },
+        "IsRelevant": true,
+        "Comment": "Salles des Glyphes : 6 etages profonds, runes anciennes, cristaux noirs"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+        "Floors": [
+          {
+            "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+            "GenSteps": [
+              {
+                "Key": {
+                  "str": [
+                    -1
+                  ]
+                },
+                "Value": {
+                  "$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+                  "MapID": "crystal_sanctuary_boss"
+                }
+              }
+            ],
+            "Comment": ""
+          }
+        ],
+        "IsRelevant": true,
+        "Comment": "Chambre de Diancie — arene cristalline circulaire"
+      }
+    ],
+    "GroundMaps": [
+      "crystal_sanctuary_entrance",
+      "crystal_sanctuary_relay",
+      "crystal_sanctuary_boss"
+    ]
+  }
+}

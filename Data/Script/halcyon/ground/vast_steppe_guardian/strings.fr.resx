@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <data name="VSG_001" xml:space="preserve">
+    <value>La brume est encore plus dense ici...[pause=15] C'est presque irréel.</value>
+  </data>
+  <data name="VSG_002" xml:space="preserve">
+    <value>C'est le cœur de la steppe.[pause=20] Il doit y avoir quelque chose qui protège cet endroit.</value>
+  </data>
+  <data name="VSG_003" xml:space="preserve">
+    <value>Ses bois...[pause=10] ils brillent !</value>
+  </data>
+  <data name="VSG_004" xml:space="preserve">
+    <value>Le Gardien des Plaines s'éveille...</value>
+  </data>
+  <data name="VSG_005" xml:space="preserve">
+    <value>Encore cette voix !</value>
+  </data>
+  <data name="VSG_006" xml:space="preserve">
+    <value>Le plus fort de la harde.[pause=20] Il ne pliera pas aussi facilement.</value>
+  </data>
+  <data name="VSG_007" xml:space="preserve">
+    <value>Prouve ta valeur, voyageur...</value>
+  </data>
+  <data name="VSG_008" xml:space="preserve">
+    <value>C'est le dernier obstacle avant la sortie de la steppe ![pause=10] On y va !</value>
+  </data>
+  <data name="VSG_009" xml:space="preserve">
+    <value>On revient à la charge.[pause=15] Cette fois, c'est la bonne !</value>
+  </data>
+  <data name="VSG_010" xml:space="preserve">
+    <value>On a vaincu le gardien de la steppe !</value>
+  </data>
+  <data name="VSG_011" xml:space="preserve">
+    <value>La brume commence à se dissiper...</value>
+  </data>
+  <data name="VSG_012" xml:space="preserve">
+    <value>Cette voix...[pause=15] Elle savait qu'il était là.</value>
+  </data>
+  <data name="VSG_013" xml:space="preserve">
+    <value>On trouvera des réponses plus tard.[pause=20] Allons de l'avant.</value>
+  </data>
+  <data name="VSG_014" xml:space="preserve">
+    <value>Le Gardien ne pardonne pas la faiblesse.</value>
+  </data>
+  <data name="VSG_015" xml:space="preserve">
+    <value>Retourne d'où tu viens.[pause=30] Reviens quand tu seras prêt.</value>
+  </data>
+<data name="VSG_016" xml:space="preserve"><value>We...[pause=10] we can't do this![pause=15] He's too powerful!</value></data><data name="VSG_017" xml:space="preserve"><value>The Warden lowers its head.[pause=20] Its antlers emit one last glow.</value></data><data name="VSG_018" xml:space="preserve"><value>You are not ready yet, traveler.[pause=30] But you have heart.</value></data><data name="VSG_019" xml:space="preserve"><value>The Alpha watches you leave without moving.[pause=25] It returns to watching over the steppe.</value></data><data name="VSG_020" xml:space="preserve"><value>The Warden collapses with a deep rumble.[pause=15] The mist around him dissipates.</value></data><data name="VSG_021" xml:space="preserve"><value>Its antlers fade slowly.[pause=20] It looks at you with... respect?</value></data><data name="VSG_022" xml:space="preserve"><value>You are worthy, stranger.[pause=25] The steppe is yours.</value></data><data name="VSG_023" xml:space="preserve"><value>It vanishes into the mist, leaving behind a peaceful silence.</value></data><data name="VSG_024" xml:space="preserve"><value>We defeated the Warden...[pause=15] We really did it.</value></data><data name="VSG_025" xml:space="preserve"><value>Even the greatest wardens eventually bow.[pause=25] You are progressing.</value></data></root>

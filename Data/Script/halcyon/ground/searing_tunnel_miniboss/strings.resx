@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <data name="STM_001" xml:space="preserve">
+    <value>This heat is suffocating...[pause=15] We must be nearing a magma pocket.</value>
+  </data>
+  <data name="STM_002" xml:space="preserve">
+    <value>Hear that, [player]?[pause=15] Sounds like... pressurized steam.</value>
+  </data>
+  <data name="STM_003" xml:space="preserve">
+    <value>Steam![pause=10] It's coming from everywhere!</value>
+  </data>
+  <data name="STM_004" xml:space="preserve">
+    <value>A Torkoal![pause=10] It's blocking our path!</value>
+  </data>
+  <data name="STM_005" xml:space="preserve">
+    <value>A Magmar too![pause=10] They've surrounded us!</value>
+  </data>
+  <data name="STM_006" xml:space="preserve">
+    <value>The Forge-Masters of the depths...</value>
+  </data>
+  <data name="STM_007" xml:space="preserve">
+    <value>That voice again!</value>
+  </data>
+  <data name="STM_008" xml:space="preserve">
+    <value>They have guarded the furnaces for centuries.[pause=20] Their heat will consume you.</value>
+  </data>
+  <data name="STM_009" xml:space="preserve">
+    <value>Unless you prove your own flame...</value>
+  </data>
+  <data name="STM_010" xml:space="preserve">
+    <value>We didn't come all this way for nothing![pause=10] [player], let's go!</value>
+  </data>
+  <data name="STM_011" xml:space="preserve">
+    <value>We're back.[pause=15] This time, we're ready!</value>
+  </data>
+  <data name="STM_012" xml:space="preserve">
+    <value>We survived the furnace!</value>
+  </data>
+  <data name="STM_013" xml:space="preserve">
+    <value>That voice...[pause=15] It seems to know everything about this dungeon.</value>
+  </data>
+  <data name="STM_014" xml:space="preserve">
+    <value>It's like it's testing us.[pause=20] Let's continue.</value>
+  </data>
+  <data name="STM_015" xml:space="preserve">
+    <value>The flames consumed you...</value>
+  </data>
+  <data name="STM_016" xml:space="preserve">
+    <value>But fire tempers steel.[pause=30] Return, stronger.</value>
+  </data>
+<data name="STM_017" xml:space="preserve"><value>Je...[pause=5] je ne peux plus...[pause=15] On doit reculer !</value></data><data name="STM_018" xml:space="preserve"><value>Torkoal souffle un panache de fumée noire.[pause=15] Magmar ricane.[pause=10] La chaleur est insoutenable.</value></data><data name="STM_019" xml:space="preserve"><value>Les flammes ne font que commencer.[pause=20] Reviens quand tu pourras les supporter.</value></data><data name="STM_020" xml:space="preserve"><value>Ils retournent dans la fournaise.[pause=20] Les braises crépitent dans l'obscurité.</value></data><data name="STM_021" xml:space="preserve"><value>Magmar s'écroule, ses flammes vacillent.[pause=10] Torkoal recule,[pause=5] sa carapace fumante.</value></data><data name="STM_022" xml:space="preserve"><value>Torkoal te fixe de ses yeux rouges.[pause=20] Un long silence.</value></data><data name="STM_023" xml:space="preserve"><value>Ta flamme...[pause=20] est plus forte que la nôtre.[pause=25] Passe.</value></data><data name="STM_024" xml:space="preserve"><value>Ils s'enfoncent dans le tunnel en fusion,[pause=15] leurs braises s'éteignant peu à peu.</value></data><data name="STM_025" xml:space="preserve"><value>On a survécu à la fournaise ![pause=10] Littéralement !</value></data><data name="STM_026" xml:space="preserve"><value>Même le feu s'incline devant ta détermination.[pause=25] Continue.</value></data></root>

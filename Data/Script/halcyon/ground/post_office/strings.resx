@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Connect_Info_File_Rescue_001" xml:space="preserve">
+    <value>Even if you can't connect to your partner,[pause=10] you can still do rescues with File Rescue.</value>
+  </data>
+  <data name="Connect_Info_File_Rescue_002" xml:space="preserve">
+    <value>When someone wipes out in a dungeon,[pause=10] a .sosmail file will appear in RESCUE/OUTBOX/SOS.</value>
+  </data>
+  <data name="Connect_Info_File_Rescue_003" xml:space="preserve">
+    <value>Have them send it to you,[pause=10] and place it in RESCUE/INBOX/SOS.</value>
+  </data>
+  <data name="Connect_Info_File_Rescue_004" xml:space="preserve">
+    <value>From there,[pause=10] you'll be able to do the rescue like you would normally.</value>
+  </data>
+  <data name="Connect_Info_File_Rescue_005" xml:space="preserve">
+    <value>After you've completed the mission,[pause=10] a .aokmail file will appear in RESCUE/OUTBOX/AOK.</value>
+  </data>
+  <data name="Connect_Info_File_Rescue_006" xml:space="preserve">
+    <value>Send it back to your partner,[pause=10] and have them place it in RESCUE/OUTBOX/AOK.</value>
+  </data>
+  <data name="Connect_Info_File_Rescue_007" xml:space="preserve">
+    <value>From there,[pause=10] they'll be able to continue their adventure!</value>
+  </data>
+  <data name="Connect_Info_File_Rescue_008" xml:space="preserve">
+    <value>However,[pause=10] keep in mind that you cannot receive rewards with this method.</value>
+  </data>
+  <data name="Connect_Info_P2P_005" xml:space="preserve">
+    <value>Then,[pause=10] configure your server settings use your friend's IP.</value>
+  </data>
+  <data name="Connect_Info_Rescue_001" xml:space="preserve">
+    <value>Friend Rescues are rescue missions between friends over the Internet.</value>
+  </data>
+  <data name="Connect_Info_Rescue_002" xml:space="preserve">
+    <value>If your friend wiped out in a dungeon,[pause=10] you could play the hero and come to their rescue!</value>
+  </data>
+  <data name="Connect_Info_Rescue_003" xml:space="preserve">
+    <value>Connect to a friend who was KO'd in a dungeon,[pause=10] and you will receive an SOS Mail.</value>
+  </data>
+  <data name="Connect_Info_Rescue_004" xml:space="preserve">
+    <value>When you get that mail,[pause=10] you can start a rescue mission at the counter to your right.</value>
+  </data>
+  <data name="Connect_Info_Rescue_005" xml:space="preserve">
+    <value>If you complete the mission,[pause=10] connect to your friend again to send them an A-OK Mail.</value>
+  </data>
+  <data name="Connect_Info_Rescue_006" xml:space="preserve">
+    <value>Once they get that mail,[pause=10] they can continue from where they fainted in that dungeon.</value>
+  </data>
+  <data name="Connect_Info_Rescue_007" xml:space="preserve">
+    <value>Just remember,[pause=10] you can only rescue friends if they're in dungeons you can access.</value>
+  </data>
+  <data name="Connect_Intro" xml:space="preserve">
+    <value>Hello there, this is the Connectivity counter. What can I help you with today?</value>
+  </data>
+  <data name="Rescue_Intro" xml:space="preserve">
+    <value>Hello, I handle mail! How may I serve you?</value>
+  </data>
+  <data name="Connect_Info_Friends_001" xml:space="preserve">
+    <value>To connect with friends,[pause=10] first choose a server to communicate on.</value>
+  </data>
+  <data name="Connect_Info_Friends_002" xml:space="preserve">
+    <value>Then,[pause=10] exchange Team IDs with your friend to add them to your contact list.</value>
+  </data>
+  <data name="Connect_Info_Friends_003" xml:space="preserve">
+    <value>Once added,[pause=10] you can choose to rescue or trade with them.</value>
+  </data>
+  <data name="Connect_Info_P2P_001" xml:space="preserve">
+    <value>Normally,[pause=10] communicating with a friend requires both players to connect to the same server.</value>
+  </data>
+  <data name="Connect_Info_P2P_002" xml:space="preserve">
+    <value>If you can't find a server that is online,[pause=10] you can't connect to your friend.</value>
+  </data>
+  <data name="Connect_Info_P2P_003" xml:space="preserve">
+    <value>But by connecting peer-to-peer,[pause=10] you won't need a server!</value>
+  </data>
+  <data name="Connect_Info_P2P_004" xml:space="preserve">
+    <value>First,[pause=10] you must exchange IP addresses with your partner. Be sure to give your IP only to trusted people.</value>
+  </data>
+  <data name="Connect_Info_P2P_007" xml:space="preserve">
+    <value>Most importantly,[pause=10] you must forward the port to connect properly.</value>
+  </data>
+  <data name="Connect_Info_P2P_008" xml:space="preserve">
+    <value>Once you've set everything up,[pause=10] you can connect to your partner like normal.</value>
+  </data>
+  <data name="Connect_Info_Trade_Item_002" xml:space="preserve">
+    <value>Items are traded from storage,[pause=10] and up to 8 can be sent at a time.</value>
+  </data>
+  <data name="Connect_Info_Trade_Mail_002" xml:space="preserve">
+    <value>Be aware that when the mission is no longer in your hands,[pause=10] you will lose track of the Pokémon requesting it.</value>
+  </data>
+  <data name="Connect_Info_Trade_Team_002" xml:space="preserve">
+    <value>Send them abroad to your friend's team,[pause=10] and they'll send one of their members in return.</value>
+  </data>
+  <data name="Connect_Info_Trade_Team_003" xml:space="preserve">
+    <value>When sent in,[pause=10] they'll be treated like any other Pokémon that joined your team.</value>
+  </data>
+  <data name="Connect_Info_Trade_Team_004" xml:space="preserve">
+    <value>Just remember,[pause=10] Pokémon important to the team can't be sent over.</value>
+  </data>
+  <data name="Rescue_Info_File_Rescue_001" xml:space="preserve">
+    <value>Even if you can't connect to your partner,[pause=10] you can still do rescues with File Rescue.</value>
+  </data>
+  <data name="Rescue_Info_File_Rescue_002" xml:space="preserve">
+    <value>When someone wipes out in a dungeon,[pause=10] a .sosmail file will appear in RESCUE/OUTBOX/SOS.</value>
+  </data>
+  <data name="Rescue_Info_File_Rescue_003" xml:space="preserve">
+    <value>Have them send it to you,[pause=10] and place it in RESCUE/INBOX/SOS.</value>
+  </data>
+  <data name="Rescue_Info_File_Rescue_004" xml:space="preserve">
+    <value>From there,[pause=10] you'll be able to do the rescue like you would normally.</value>
+  </data>
+  <data name="Rescue_Info_File_Rescue_005" xml:space="preserve">
+    <value>After you've completed the mission,[pause=10] a .aokmail file will appear in RESCUE/OUTBOX/AOK.</value>
+  </data>
+  <data name="Rescue_Info_File_Rescue_006" xml:space="preserve">
+    <value>Send it back to your partner,[pause=10] and have them place it in RESCUE/INBOX/AOK.</value>
+  </data>
+  <data name="Rescue_Info_File_Rescue_007" xml:space="preserve">
+    <value>From there,[pause=10] they'll be able to continue their adventure!</value>
+  </data>
+  <data name="Rescue_Info_File_Rescue_008" xml:space="preserve">
+    <value>However,[pause=10] keep in mind that you cannot receive rewards with this method.</value>
+  </data>
+  <data name="Rescue_Info_Rescue_002" xml:space="preserve">
+    <value>If your friend wiped out in a dungeon,[pause=10] you could play the hero and come to their rescue!</value>
+  </data>
+  <data name="Rescue_Info_Rescue_003" xml:space="preserve">
+    <value>On the counter to your left,[pause=10] connect to a friend who was KO'd in a dungeon.</value>
+  </data>
+  <data name="Rescue_Info_Rescue_004" xml:space="preserve">
+    <value>You will receive an SOS Mail,[pause=10] and then you can start a rescue mission at this counter.</value>
+  </data>
+  <data name="Rescue_Info_Rescue_005" xml:space="preserve">
+    <value>If you complete the mission,[pause=10] connect to your friend again to send them an A-OK Mail.</value>
+  </data>
+  <data name="Rescue_Info_Rescue_007" xml:space="preserve">
+    <value>Just remember,[pause=10] you can only rescue friends if they're in dungeons you can access.</value>
+  </data>
+  <data name="Rescue_Return_Fail_001" xml:space="preserve">
+    <value>Oh no,[pause=10] your rescue attempt went badly...</value>
+  </data>
+  <data name="Rescue_Return_Miss_003" xml:space="preserve">
+    <value>Always remember,[pause=10] the mission isn't completed until you reach the rescue goal.</value>
+  </data>
+  <data name="Connect_Info_P2P_006" xml:space="preserve">
+    <value>You and your partner must also specify the same port. If left blank,[pause=10] the port defaults to 1705.</value>
+  </data>
+  <data name="Rescue_Info_Rescue_006" xml:space="preserve">
+    <value>Once they get that mail,[pause=10] they can continue from where they fainted in that dungeon.</value>
+  </data>
+</root>

@@ -1,0 +1,163 @@
+﻿{
+  "Version": "0.8.9.0",
+  "Object": {
+    "$type": "RogueEssence.Data.ZoneData, RogueEssence",
+    "Name": {
+      "DefaultText": "Celestial Peak",
+      "LocalTexts": {
+        "fr": "Pic Celeste"
+      }
+    },
+    "Released": false,
+    "Comment": "Chapter 10 dungeon. Sacred sky-piercing mountain. First Necrozma vision contact. Escouade Fulgur race. Boss: Lugia L46.",
+    "NoEXP": false,
+    "ExpPercent": 100,
+    "Level": -1,
+    "LevelCap": false,
+    "KeepSkills": false,
+    "TeamRestrict": false,
+    "TeamSize": -1,
+    "MoneyRestrict": false,
+    "BagRestrict": -1,
+    "KeepTreasure": false,
+    "BagSize": -1,
+    "Persistent": false,
+    "Rescues": 2,
+    "Rogue": 0,
+    "Segments": [
+      {
+        "$type": "RogueEssence.LevelGen.RangeDictSegment, RogueEssence",
+        "Floors": {
+          "nodes": [
+            {
+              "Item": {},
+              "Range": {
+                "Min": 0,
+                "Max": 4
+              }
+            },
+            {
+              "Item": {},
+              "Range": {
+                "Min": 4,
+                "Max": 8
+              }
+            }
+          ]
+        },
+        "IsRelevant": true,
+        "Comment": "Contreforts Venteux : 8 etages, montagne rocheuse, ciel ouvert"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+        "Floors": [
+          {
+            "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+            "GenSteps": [
+              {
+                "Key": {
+                  "str": [
+                    -1
+                  ]
+                },
+                "Value": {
+                  "$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+                  "MapID": "celestial_peak_relay"
+                }
+              }
+            ],
+            "Comment": ""
+          }
+        ],
+        "IsRelevant": true,
+        "Comment": "Relais — corniche nuageuse (checkpoint Kangourex)"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.RangeDictSegment, RogueEssence",
+        "Floors": {
+          "nodes": [
+            {
+              "Item": {},
+              "Range": {
+                "Min": 0,
+                "Max": 6
+              }
+            }
+          ]
+        },
+        "IsRelevant": true,
+        "Comment": "Mer de Nuages : 6 etages, plates-formes flottantes, vent fort"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+        "Floors": [
+          {
+            "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+            "GenSteps": [
+              {
+                "Key": {
+                  "str": [
+                    -1
+                  ]
+                },
+                "Value": {
+                  "$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+                  "MapID": "celestial_peak_fulgur"
+                }
+              }
+            ],
+            "Comment": ""
+          }
+        ],
+        "IsRelevant": true,
+        "Comment": "Affrontement Escouade Fulgur — course tactique"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.RangeDictSegment, RogueEssence",
+        "Floors": {
+          "nodes": [
+            {
+              "Item": {},
+              "Range": {
+                "Min": 0,
+                "Max": 4
+              }
+            }
+          ]
+        },
+        "IsRelevant": true,
+        "Comment": "Sommet Sacre : 4 etages, ciel pur, aurores, silence"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+        "Floors": [
+          {
+            "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+            "GenSteps": [
+              {
+                "Key": {
+                  "str": [
+                    -1
+                  ]
+                },
+                "Value": {
+                  "$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+                  "MapID": "celestial_peak_boss"
+                }
+              }
+            ],
+            "Comment": ""
+          }
+        ],
+        "IsRelevant": true,
+        "Comment": "Autel de Lugia — arene celeste circulaire"
+      }
+    ],
+    "GroundMaps": [
+      "celestial_peak_entrance",
+      "celestial_peak_relay",
+      "celestial_peak_fulgur",
+      "celestial_peak_boss"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <data name="VSM_001" xml:space="preserve">
+    <value>Cette brume est de plus en plus épaisse...[pause=10] On n'y voit presque rien.</value>
+  </data>
+  <data name="VSM_002" xml:space="preserve">
+    <value>Hé, [player]...[pause=10] Tu as l'impression qu'on est observés ?</value>
+  </data>
+  <data name="VSM_003" xml:space="preserve">
+    <value>...Oui.[pause=15] Depuis un moment déjà.</value>
+  </data>
+  <data name="VSM_004" xml:space="preserve">
+    <value>Qu'est-ce que...[pause=0] ?!</value>
+  </data>
+  <data name="VSM_005" xml:space="preserve">
+    <value>Un Pokémon a surgi du sol !</value>
+  </data>
+  <data name="VSM_006" xml:space="preserve">
+    <value>Et celui-là...[pause=15] il nous attendait.</value>
+  </data>
+  <data name="VSM_007" xml:space="preserve">
+    <value>La harde protège son territoire...</value>
+  </data>
+  <data name="VSM_008" xml:space="preserve">
+    <value>Qui...[pause=10] qui a dit ça ?!</value>
+  </data>
+  <data name="VSM_009" xml:space="preserve">
+    <value>Peu importe.[pause=20] Ces créatures ne te laisseront pas passer sans combattre.</value>
+  </data>
+  <data name="VSM_010" xml:space="preserve">
+    <value>Montre-leur ta détermination...[pause=20] ou péris.</value>
+  </data>
+  <data name="VSM_011" xml:space="preserve">
+    <value>Pas le choix ![pause=10] [player], on se bat !</value>
+  </data>
+  <data name="VSM_012" xml:space="preserve">
+    <value>Ils sont encore là...[pause=15] Cette fois, on ne perd pas !</value>
+  </data>
+  <data name="VSM_013" xml:space="preserve">
+    <value>On a réussi ![pause=10] Ces deux-là étaient coriaces...</value>
+  </data>
+  <data name="VSM_014" xml:space="preserve">
+    <value>Mais cette voix...[pause=15] Qui était-ce ?</value>
+  </data>
+  <data name="VSM_015" xml:space="preserve">
+    <value>Je ne sais pas.[pause=20] Continuons d'avancer.</value>
+  </data>
+  <data name="VSM_016" xml:space="preserve">
+    <value>Ils ont disparu...[pause=15] Allez, on continue la mission.</value>
+  </data>
+  <data name="VSM_017" xml:space="preserve">
+    <value>Pas encore assez fort...</value>
+  </data>
+  <data name="VSM_018" xml:space="preserve">
+    <value>Mais tu te relèveras.[pause=30] Ils se relèvent toujours.</value>
+  </data>
+<data name="VSM_019" xml:space="preserve"><value>N-no...[pause=10] They're too strong...[pause=15] We have to retreat...</value></data><data name="VSM_020" xml:space="preserve"><value>Mudbray lets out a triumphant neigh.[pause=15] Stantler lowers its head,[pause=10] antlers still charged.</value></data><data name="VSM_021" xml:space="preserve"><value>You fought well, little one.[pause=30] But the herd does not fall so easily.</value></data><data name="VSM_022" xml:space="preserve"><value>The mist envelops them once more...[pause=20] They return to the steppe.</value></data><data name="VSM_023" xml:space="preserve"><value>Mudbray collapses, groggy.[pause=10] Stantler steps back,[pause=5] its antlers losing their glow.</value></data><data name="VSM_024" xml:space="preserve"><value>Stantler stares at you for a long moment.[pause=20] Then it bows — a sign of respect.</value></data><data name="VSM_025" xml:space="preserve"><value>You have earned the right to pass, stranger.[pause=25] The herd will remember you.</value></data><data name="VSM_026" xml:space="preserve"><value>They retreat into the mist...[pause=15] This time without hostility.</value></data><data name="VSM_027" xml:space="preserve"><value>We won![pause=10] I can't believe it...</value></data><data name="VSM_028" xml:space="preserve"><value>The herd protects its own.[pause=20] You would have done the same in their place.</value></data></root>

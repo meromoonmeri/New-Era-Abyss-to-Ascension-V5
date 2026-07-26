@@ -1,0 +1,128 @@
+﻿{
+  "Version": "0.8.9.0",
+  "Object": {
+    "$type": "RogueEssence.Data.ZoneData, RogueEssence",
+    "Name": {
+      "DefaultText": "Cloven Ruins",
+      "LocalTexts": {
+        "fr": "Ruines Tordues"
+      }
+    },
+    "Released": false,
+    "Comment": "Chapter 7 dungeon. Corrupted ruins hiding an Anima Core. Boss: Regigigas.",
+    "NoEXP": false,
+    "ExpPercent": 100,
+    "Level": -1,
+    "LevelCap": false,
+    "KeepSkills": false,
+    "TeamRestrict": false,
+    "TeamSize": -1,
+    "MoneyRestrict": false,
+    "BagRestrict": -1,
+    "KeepTreasure": false,
+    "BagSize": -1,
+    "Persistent": false,
+    "Rescues": 2,
+    "Rogue": 0,
+    "Segments": [
+      {
+        "$type": "RogueEssence.LevelGen.RangeDictSegment, RogueEssence",
+        "Floors": {
+          "nodes": [
+            {
+              "Item": {},
+              "Range": {
+                "Min": 0,
+                "Max": 5
+              }
+            },
+            {
+              "Item": {},
+              "Range": {
+                "Min": 5,
+                "Max": 10
+              }
+            },
+            {
+              "Item": {},
+              "Range": {
+                "Min": 10,
+                "Max": 15
+              }
+            }
+          ]
+        },
+        "IsRelevant": true,
+        "Comment": "Ruines Tordues : 15 etages, corruption progressive"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+        "Floors": [
+          {
+            "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+            "GenSteps": [
+              {
+                "Key": {
+                  "str": [
+                    -1
+                  ]
+                },
+                "Value": {
+                  "$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+                  "MapID": "cloven_ruins_relay"
+                }
+              }
+            ],
+            "Comment": ""
+          }
+        ],
+        "IsRelevant": false,
+        "Comment": "Relais — checkpoint mi-donjon"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.RangeDictSegment, RogueEssence",
+        "Floors": {
+          "nodes": [
+            {
+              "Item": {},
+              "Range": {
+                "Min": 0,
+                "Max": 5
+              }
+            }
+          ]
+        },
+        "IsRelevant": true,
+        "Comment": "Profondeurs des Ruines Tordues : 5 etages, palette corrompue"
+      },
+      {
+        "$type": "RogueEssence.LevelGen.LayeredSegment, RogueEssence",
+        "Floors": [
+          {
+            "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
+            "GenSteps": [
+              {
+                "Key": {
+                  "str": [
+                    -1
+                  ]
+                },
+                "Value": {
+                  "$type": "RogueEssence.LevelGen.MappedRoomStep`1[[RogueEssence.LevelGen.MapLoadContext, RogueEssence]], RogueEssence",
+                  "MapID": "cloven_ruins_boss"
+                }
+              }
+            ],
+            "Comment": ""
+          }
+        ],
+        "IsRelevant": true,
+        "Comment": "Arene Regigigas"
+      }
+    ],
+    "GroundMaps": [
+      "cloven_ruins_entrance",
+      "cloven_ruins_boss"
+    ]
+  }
+}

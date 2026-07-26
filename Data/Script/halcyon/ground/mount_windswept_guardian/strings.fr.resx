@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <data name="MWG_001" xml:space="preserve">
+    <value>Le sommet...[pause=15] On y est presque.</value>
+  </data>
+  <data name="MWG_002" xml:space="preserve">
+    <value>Regarde le ciel...[pause=15] Ces nuages ne sont pas normaux.</value>
+  </data>
+  <data name="MWG_003" xml:space="preserve">
+    <value>C'est...[pause=10] un orage ?!</value>
+  </data>
+  <data name="MWG_004" xml:space="preserve">
+    <value>Un...[pause=10] UN AERODACTYL !</value>
+  </data>
+  <data name="MWG_005" xml:space="preserve">
+    <value>Le Prédateur Ancestral du Ciel...</value>
+  </data>
+  <data name="MWG_006" xml:space="preserve">
+    <value>Toi...[pause=10] Tu savais qu'il était là !</value>
+  </data>
+  <data name="MWG_007" xml:space="preserve">
+    <value>L'ultime gardien de la montagne.[pause=20] Il a régné sur ces cieux bien avant que quiconque ne foule ces terres.</value>
+  </data>
+  <data name="MWG_008" xml:space="preserve">
+    <value>Si tu triomphes ici, le chemin vers les ruines ancestrales s'ouvrira à toi.</value>
+  </data>
+  <data name="MWG_009" xml:space="preserve">
+    <value>Échoue...[pause=30] et ton voyage s'arrête ici.</value>
+  </data>
+  <data name="MWG_010" xml:space="preserve">
+    <value>Alors on va lui montrer que notre voyage ne fait que commencer ![pause=10] [player], à nous deux !</value>
+  </data>
+  <data name="MWG_011" xml:space="preserve">
+    <value>Cette fois, on le terrasse.[pause=15] Promis, [player].</value>
+  </data>
+  <data name="MWG_012" xml:space="preserve">
+    <value>On...[pause=10] On l'a vaincu !</value>
+  </data>
+  <data name="MWG_013" xml:space="preserve">
+    <value>Regarde ![pause=10] L'orage se dissipe...</value>
+  </data>
+  <data name="MWG_014" xml:space="preserve">
+    <value>Cette voix...[pause=15] Elle a dit quelque chose à propos de ruines ancestrales.</value>
+  </data>
+  <data name="MWG_015" xml:space="preserve">
+    <value>C'est là qu'on va.[pause=20] Vers les Ruines du Cloven.</value>
+  </data>
+  <data name="MWG_016" xml:space="preserve">
+    <value>Alors allons-y ![pause=15] La fin de l'expédition nous attend !</value>
+  </data>
+  <data name="MWG_017" xml:space="preserve">
+    <value>L'ancien prédateur ne fait pas de quartier...</value>
+  </data>
+  <data name="MWG_018" xml:space="preserve">
+    <value>Mais la proie d'aujourd'hui est le chasseur de demain.</value>
+  </data>
+  <data name="MWG_019" xml:space="preserve">
+    <value>Repose-toi.[pause=30] Le sommet t'attendra.</value>
+  </data>
+<data name="MWG_020" xml:space="preserve"><value>I...[pause=5] I can't stand anymore...[pause=15] The Aerodactyl is too powerful!</value></data><data name="MWG_021" xml:space="preserve"><value>The Aerodactyl lets out a piercing screech that tears through the sky.[pause=15] It towers over you.</value></data><data name="MWG_022" xml:space="preserve"><value>You are not the first to fall,[pause=20] little climber.[pause=25] And you won't be the last.</value></data><data name="MWG_023" xml:space="preserve"><value>It rises back into the storm with two wingbeats.[pause=20] The mountain still trembles.</value></data><data name="MWG_024" xml:space="preserve"><value>The ancient predator collapses in a cloud of dust.[pause=15] The storm clears.</value></data><data name="MWG_025" xml:space="preserve"><value>The Aerodactyl looks at you, panting.[pause=20] Then it lowers its head.</value></data><data name="MWG_026" xml:space="preserve"><value>You have defeated the king of these skies.[pause=25] I... I never thought I'd see this.[pause=30] Go. The summit is yours.</value></data><data name="MWG_027" xml:space="preserve"><value>It spreads its wings one last time and disappears into the clouds.[pause=15] Silence returns.</value></data><data name="MWG_028" xml:space="preserve"><value>We...[pause=10] WE BEAT IT![pause=15] The summit is ours!</value></data><data name="MWG_029" xml:space="preserve"><value>The oldest predator bows before you.[pause=25] You are changing the rules of this world.</value></data></root>

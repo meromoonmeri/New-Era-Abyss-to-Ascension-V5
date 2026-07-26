@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="MWE5_001" xml:space="preserve">
+    <value>Finally![pause=0] We're out of {0}!</value>
+  </data>
+  <data name="MWE5_002" xml:space="preserve">
+    <value>Oh,[pause=10] it's already dark![pause=0] I hope we're not too late...</value>
+  </data>
+  <data name="MWE5_003" xml:space="preserve">
+    <value>We should set up camp here and rest before the final climb.</value>
+  </data>
+  <data name="MWE5_004" xml:space="preserve">
+    <value>Tomorrow, we'll reach Cloven Ruins...[pause=0] assuming the mountain lets us pass.</value>
+  </data>
+  <data name="MWE5_005" xml:space="preserve">
+    <value>Alright.[pause=0] Let's rest up and regain our strength.</value>
+  </data>
+
+  <data name="MWE5_006" xml:space="preserve">
+    <value>The summit is closer than it looks, but the wind will not make it easy.</value>
+  </data>
+  <data name="MWE5_007" xml:space="preserve">
+    <value>We should stay together. The mountain has already separated us once.</value>
+  </data>
+  <data name="MWE5_008" xml:space="preserve">
+    <value>The weather changed before sunset. That is not normal for this route.</value>
+  </data>
+  <data name="MWE5_009" xml:space="preserve">
+    <value>If the wind rises again, we stop. No one is proving anything by collapsing.</value>
+  </data>
+  <data name="MWE5_010" xml:space="preserve">
+    <value>We crossed the tunnel. We can cross a mountain too.</value>
+  </data>
+  <data name="MWE5_011" xml:space="preserve">
+    <value>And if the path changes, we will read it together and find another way.</value>
+  </data>
+  <data name="MWE5_012" xml:space="preserve">
+    <value>That is the spirit! We made it this far because nobody stayed behind.</value>
+  </data>
+  <data name="MWE5_013" xml:space="preserve">
+    <value>Do not mistake enthusiasm for preparation. Check your supplies before sleeping.</value>
+  </data>
+  <data name="MWE5_014" xml:space="preserve">
+    <value>I already checked them twice. I can check them a third time!</value>
+  </data>
+  <data name="MWE5_015" xml:space="preserve">
+    <value>Please do. The summit is no place for a careless mistake.</value>
+  </data>
+  <data name="MWE5_016" xml:space="preserve">
+    <value>We will be careful. Tomorrow we finish this climb as a team.</value>
+  </data>
+  <data name="MWE5_017" xml:space="preserve">
+    <value>The wind is carrying a strange sound from above us.</value>
+  </data>
+  <data name="MWE5_018" xml:space="preserve">
+    <value>It may be the ruins. Or the mountain may be warning us away.</value>
+  </data>
+  <data name="MWE5_019" xml:space="preserve">
+    <value>Then we listen, remember what we heard, and keep our eyes open.</value>
+  </data>
+  <data name="MWE5_020" xml:space="preserve">
+    <value>Tomorrow, we reach the summit.</value>
+  </data>
+</root>
